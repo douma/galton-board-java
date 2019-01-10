@@ -1,4 +1,4 @@
-# Galton Board
+# Galton Board (Java)
 
 ![](https://images.weserv.nl?url=mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
 
@@ -10,3 +10,17 @@ insight into regression to the mean or "regression to mediocrity".
 ## PHP Version
 
 See https://github.com/douma/galton-board
+
+## Result
+
+Run `App.main`:
+
+```
+000
+00000000
+000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000
+000000000000
+```
