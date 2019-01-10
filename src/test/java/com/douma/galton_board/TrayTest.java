@@ -9,8 +9,8 @@ public class TrayTest extends TestCase
 
         assert(list[0] instanceof Tray);
         assert(list[1] instanceof Tray);
-        assert(list[0].getNumber() == 1);
-        assert(list[1].getNumber() == 2);
+        assert(list[0].getNumber() == 0);
+        assert(list[1].getNumber() == 1);
     }
 
     public void test_tray_should_append_bullet_and_return_new_instance()
@@ -24,5 +24,6 @@ public class TrayTest extends TestCase
         Tray newTray = tray.withBullet(bullet);
         assertNotSame(newTray, tray);
         assertSame(tray.getNumber(), newTray.getNumber());
+        assert(newTray.getNumberOfBullets() == 1);
     }
 }

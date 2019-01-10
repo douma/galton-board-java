@@ -17,7 +17,7 @@ class Tray
         Tray[] list = new Tray[length];
         for(int x= 0; x<length;x++)
         {
-            list[x] = new Tray(x+1);
+            list[x] = new Tray(x);
         }
         return list;
     }
@@ -25,8 +25,14 @@ class Tray
     public Tray withBullet(Bullet bullet)
     {
         Tray newTray = new Tray(this.number);
+        newTray.bullets = this.bullets;
         newTray.bullets.add(bullet);
         return newTray;
+    }
+
+    public int getNumberOfBullets()
+    {
+        return this.bullets.size();
     }
 
     public int getNumber()
