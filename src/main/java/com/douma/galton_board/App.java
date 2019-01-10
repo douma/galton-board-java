@@ -14,7 +14,8 @@ public class App
             galtonBoard = galtonBoard.dropBullets();
             Tray[] resultTrays = galtonBoard.getTrays();
             for(Tray tray : resultTrays) {
-                System.out.println(String.format("%1$" + tray.getNumberOfBullets() + "s", "").replace(' ', '0'));
+                String formatted = String.format("%1$" + tray.getNumberOfBullets() + "s", "").replace(' ', '0');
+                System.out.println(formatted);
             }
         }
         catch(Exception e)
