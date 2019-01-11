@@ -11,6 +11,12 @@ insight into regression to the mean or "regression to mediocrity".
 
 See https://github.com/douma/galton-board
 
+## Cucumber
+
+![](https://images.weserv.nl?url=cdn-images-1.medium.com/max/1200/1*oPCrD81z6KzgA20OhiTIQg.png?w=150)
+
+Feature test is implemented using Cucumber.
+
 ## Result
 
 Run `App.main`:
