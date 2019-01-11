@@ -17,6 +17,12 @@ See https://github.com/douma/galton-board
 
 Feature test is implemented using Cucumber.
 
+## Explanation
+
+The implementation of the`Galton Board` is proven te work by using a `test double`, which replaces the
+unpredictable behavior of the dropping bullets, with a predefined path from which can be determined in which
+tray the bullet will end.
+
 ## Result
 
 Run `App.main`:
