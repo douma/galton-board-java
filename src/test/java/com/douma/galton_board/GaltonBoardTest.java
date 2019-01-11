@@ -59,7 +59,7 @@ public class GaltonBoardTest extends TestCase
 
     public void test_should_drop_bullets_and_be_in_middle_tray() {
         Bullet[] bullets = Bullet.listFromLength(10);
-        Tray[] trays = Tray.listFromLength(10);
+        Tray[] trays = Tray.listFromLength(9);
         DropPolicyInterface dropPolicy = new LeftRightDropPolicy();
 
         GaltonBoard galtonBoard = new GaltonBoard(trays, bullets, dropPolicy);
@@ -75,9 +75,7 @@ public class GaltonBoardTest extends TestCase
         }
 
         Tray[] resultTrays = galtonBoard.getTrays();
-
-        System.out.println(resultTrays[5].getNumberOfBullets());
-
-
+        assertEquals(4, resultTrays[4].getNumber());
+        assertEquals(10, resultTrays[4].getNumberOfBullets());
     }
 }
