@@ -1,4 +1,6 @@
-# Galton Board (Java)
+![](https://images.weserv.nl?url=www.agconnect.nl/sites/ag/files/styles/article_main_image/public/java%20logo.jpg&w=300)
+
+# Galton Board
 
 ![](https://images.weserv.nl?url=mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
 
@@ -6,10 +8,6 @@
 by Sir Francis Galton to demonstrate the central limit theorem, in particular that the normal
 distribution is approximate to the binomial distribution. Among its applications, it afforded
 insight into regression to the mean or "regression to mediocrity".
-
-## PHP Version
-
-See https://github.com/douma/galton-board
 
 ## Cucumber
 
