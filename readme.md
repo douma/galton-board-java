@@ -1,4 +1,4 @@
-![](https://images.weserv.nl?url=www.agconnect.nl/sites/ag/files/styles/article_main_image/public/java%20logo.jpg&w=300)
+![](https://images.weserv.nl?url=www.agconnect.nl/sites/ag/files/styles/article_main_image/public/java%20logo.jpg&w=280)
 
 # Galton Board
 
