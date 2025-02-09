@@ -1,8 +1,8 @@
-![](https://images.weserv.nl?url=www.agconnect.nl/sites/ag/files/styles/article_main_image/public/java%20logo.jpg&w=280)
+![](./static/java.png)
 
 # Galton Board
 
-![](https://images.weserv.nl?url=mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
+![](./static/GaltonBoard_1000.gif)
 
 > The bean machine, also known as the Galton Board or quincunx, is a device invented
 by Sir Francis Galton to demonstrate the central limit theorem, in particular that the normal
@@ -11,7 +11,7 @@ insight into regression to the mean or "regression to mediocrity".
 
 ## Cucumber
 
-![](https://images.weserv.nl/?url=cdn-images-1.medium.com/max/1200/1*oPCrD81z6KzgA20OhiTIQg.png&w=250)
+![](./static/cucumber.png)
 
 Feature test is implemented using Cucumber.
 
